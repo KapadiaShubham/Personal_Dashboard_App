@@ -1,0 +1,15 @@
+.Task{
+    font-size: 1rem;
+    width: 35vw;
+    height: 10vh;
+    min-height: 5rem;
+    text-align: left;
+    border: 2px solid blue;
+    padding: 5px;
+}
+.task_title{
+    font-size: 1.3rem;
+}
+.task_desc{
+    font-size: 1rem;
+}

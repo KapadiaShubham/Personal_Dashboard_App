@@ -1,0 +1,8 @@
+nav{
+    text-align: center;
+    display: block;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 8vh;
+    min-height: 4rem;
+}
