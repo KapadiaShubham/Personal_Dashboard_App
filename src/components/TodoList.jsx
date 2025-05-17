@@ -9,9 +9,9 @@ const TodoList = () => {
   });
   const [tasks, setTasks] = useState([
     {
-      key: 1,
-      title: "Title 1",
-      desc: "Desc 1",
+      key: 3,
+      title: "Title 3",
+      desc: "Desc 3",
     },
     {
       key: 2,
@@ -19,11 +19,10 @@ const TodoList = () => {
       desc: "Desc 2",
     },
     {
-      key: 3,
-      title: "Title 3",
-      desc: "Desc 3",
-    },
-    { key: 4, title: "Title 4", desc: "Desc 4" },
+      key: 1,
+      title: "Title 1",
+      desc: "Desc 1",
+    }
   ]);
   useEffect(() => {
     console.log(newTask);
